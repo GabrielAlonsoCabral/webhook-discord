@@ -1,0 +1,10 @@
+[package]
+name = "discord-alert"
+version = "0.1.0"
+authors = ["Gabriel Alonso <gabriel.alonso2589@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+exitfailure = "0.5.1"
+serenity = {version="0.11.5", features=["model", "rustls_backend"]}
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
