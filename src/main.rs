@@ -25,7 +25,6 @@ async fn main() -> Result<(), ExitFailure> {
         e.color(Colour::DARK_GREEN);
         e.title("Rust - Discord Webhook");
         e.thumbnail("https://avatars.githubusercontent.com/u/5430905?s=200&v=4");
-        // e.author(|f: &mut CreateEmbedAuthor| f.name("Gabriel Alonso"));
         e.author(|f: &mut CreateEmbedAuthor| {
             f.icon_url("https://avatars.githubusercontent.com/u/77025415?v=4");
             f.name("Gabriel Alonso");
